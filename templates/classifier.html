@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../static/scripts/uploadImage.js"></script>
+
+    <body id="mainPage">
+        <div id="mainDock">
+            <div id="imageBorder">
+                <img id="uploadedImage" src="../static/temp/test.png">
+                <img id="placeholderImage" src="../static/assets/placeholderImage.png">
+                <p id="placeholderText">Upload something here to classify</p>
+            </div>
+            <div id="imageResult">
+                <p id="result"></p>
+            </div>
+        </div>
+        <input type="file" name="image" id="selectedFile" style="display: none;" accept="image/*" />
+        <button id="upload" class="btn btn-default" onclick="startFileUpload();">Upload</button>
+        <button id="classify" class="btn btn-default" type="button" onclick="predictImage();">Classify</button>
+    </body>
+</head>
+
+</html>

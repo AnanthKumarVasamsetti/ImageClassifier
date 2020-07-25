@@ -1,0 +1,72 @@
+#mainPage {
+    background-color: #EEF4FE;
+}
+
+#mainDock {
+    background-color: white;
+    height: 75%;
+    width: 55%;
+    position: relative;
+    top: 10%;
+    left: 22%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#imageBorder {
+    border-style: dashed;
+    height: 83%;
+    width: 91%;
+    position: relative;
+    top: 5%;
+    left: 4%;
+    border-color: #D8D8D8;
+}
+
+#uploadedImage {
+    position: fixed;
+    top: 19%;
+    left: 31%;
+    width: 36%;
+    height: 50%;
+    display: none;
+}
+
+#placeholderImage {
+    top: 27%;
+    position: fixed;
+    height: 30%;
+    width: 15%;
+    left: 42%;
+    opacity: 65%;
+}
+
+#placeholderText {
+    position: fixed;
+    top: 62%;
+    left: 43%;
+    color: #77899E;
+    font: caption;
+    opacity: 50%;
+}
+
+#imageResult {
+    position: fixed;
+    top: 77%;
+    left: 46.4%;
+    color: #77899E;
+    font: caption;
+    font-size: 350%;
+    display: block;
+}
+
+#upload {
+    position: fixed;
+    top: 89%;
+    left: 45%;
+}
+
+#classify {
+    position: fixed;
+    top: 89%;
+    left: 50%;
+}
