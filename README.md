@@ -20,5 +20,29 @@ The classifier is built using ***Tensorflow***, ***keras***, ***NumPy*** and ***
 The following are some of the working examples of single page image classifier application
 
 ```
-Basic example
+Basic example with lot of noise in the background
 ```
+![Dog image 1](/UI%20layout/image%201.png)
+
+```
+Cats lot of them
+```
+![Cat image 1](/UI%20layout/image%202.png)
+
+As you can see here there is a noise and multiple entites in the picture also resolutions are varied too
+
+```
+Let's test with some text
+```
+![Cat image 2](/UI%20layout/image%203.png)
+
+```
+Some with a blurry background just to add some detailing
+```
+![Dog image 2](/UI%20layout/image%204.png)
+
+```
+Some which are bit obstructed with objects
+```
+![Dog image 3](/UI%20layout/image%205.png)
+![Cat image 3](/UI%20layout/image%206.png)
